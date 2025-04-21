@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<IntegrationService uuid="c0b50450-6469-45a1-b221-2d40308db222">
+		<InternalInfo>
+			<xr:GeneratedType name="IntegrationServiceManager.ГП_СервисИнтеграцииБГУУниверситет" category="Manager">
+				<xr:TypeId>97ee4f6f-4f07-4edb-9d17-73238e6ff744</xr:TypeId>
+				<xr:ValueId>98613661-48f0-4942-beb7-4cdf04193244</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГП_СервисИнтеграцииБГУУниверситет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервис интеграции БГУ Университет</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>// Гарант+</Comment>
+			<ExternalIntegrationServiceAddress>http://10.1.1.102:9090/applications/KGUObmen-universitet-BGU-dev</ExternalIntegrationServiceAddress>
+		</Properties>
+		<ChildObjects>
+			<IntegrationServiceChannel uuid="0546e5b8-c908-4adc-8983-725c3ffbb756">
+				<InternalInfo>
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтерию" category="Manager">
+						<xr:TypeId>c97ab767-cf6b-471f-8844-79e7285a223c</xr:TypeId>
+						<xr:ValueId>6d549c54-c830-45fa-976b-fe53c89e9ce4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтерию</Name>
+					<Synonym/>
+					<Comment/>
+					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ВБухгалтерию</ExternalIntegrationServiceChannelName>
+					<MessageDirection>Receive</MessageDirection>
+					<ReceiveMessageProcessing>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтериюОбработкаПолученияСообщения</ReceiveMessageProcessing>
+					<Transactioned>true</Transactioned>
+				</Properties>
+			</IntegrationServiceChannel>
+			<IntegrationServiceChannel uuid="021d7f4c-27af-4e16-8744-2f2c339869e6">
+				<InternalInfo>
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ИзБухгалтеии" category="Manager">
+						<xr:TypeId>cc0b3b96-3aaf-4896-820c-2db9801cf737</xr:TypeId>
+						<xr:ValueId>67006547-7806-40b4-93ae-261e57549f35</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ИзБухгалтеии</Name>
+					<Synonym/>
+					<Comment/>
+					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ИзБухгалтеии</ExternalIntegrationServiceChannelName>
+					<MessageDirection>Send</MessageDirection>
+					<ReceiveMessageProcessing/>
+					<Transactioned>true</Transactioned>
+				</Properties>
+			</IntegrationServiceChannel>
+		</ChildObjects>
+	</IntegrationService>
+</MetaDataObject>

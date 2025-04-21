@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="ГруппаОсновное" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общее</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПараметрыОтбора" id="8">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры отбора</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры отбора</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:NavigationColor</BackColor>
+							<ExtendedTooltip name="ГруппаПараметрыОтбораРасширеннаяПодсказка" id="9"/>
+							<ChildItems>
+								<InputField name="ПериодОбработки" id="13">
+									<DataPath>Объект.ПериодОбработки</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПериодОбработкиКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ПериодОбработкиРасширеннаяПодсказка" id="15"/>
+								</InputField>
+								<InputField name="НомерПриказа" id="10">
+									<DataPath>Объект.НомерПриказа</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НомерПриказаКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="12"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДополнительныеНастройки" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Соответствия при переносе</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДополнительныеНастройкиРасширеннаяПодсказка" id="17"/>
+					<ChildItems>
+						<Table name="Соответствие" id="18">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Соответствие</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоответствиеКонтекстноеМеню" id="19"/>
+							<AutoCommandBar name="СоответствиеКоманднаяПанель" id="20"/>
+							<ExtendedTooltip name="СоответствиеРасширеннаяПодсказка" id="21"/>
+							<SearchStringAddition name="СоответствиеСтрокаПоиска" id="22">
+								<AdditionSource>
+									<Item>Соответствие</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеСтрокаПоискаКонтекстноеМеню" id="23"/>
+								<ExtendedTooltip name="СоответствиеСтрокаПоискаРасширеннаяПодсказка" id="24"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоответствиеСостояниеПросмотра" id="25">
+								<AdditionSource>
+									<Item>Соответствие</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеСостояниеПросмотраКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="СоответствиеСостояниеПросмотраРасширеннаяПодсказка" id="27"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоответствиеУправлениеПоиском" id="28">
+								<AdditionSource>
+									<Item>Соответствие</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СоответствиеУправлениеПоискомКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="СоответствиеУправлениеПоискомРасширеннаяПодсказка" id="30"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СоответствиеНомерСтроки" id="31">
+									<DataPath>Объект.Соответствие.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоответствиеНомерСтрокиКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="СоответствиеНомерСтрокиРасширеннаяПодсказка" id="33"/>
+								</LabelField>
+								<InputField name="СоответствиеИдИсточник" id="34">
+									<DataPath>Объект.Соответствие.ИдИсточник</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Идентификатор в Университете</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СоответствиеИдИсточникКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="СоответствиеИдИсточникРасширеннаяПодсказка" id="36"/>
+								</InputField>
+								<InputField name="СоответствиеИДПриемник" id="37">
+									<DataPath>Объект.Соответствие.ИдПриемник</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Идентификатор в Бухгалтерии</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СоответствиеИДПриемникКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="СоответствиеИДПриемникРасширеннаяПодсказка" id="39"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ГП_ПолучениеДанныхУниверситета</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.КодПолучателя</Field>
+				<Field>Объект.ПериодОбработки</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+</Form>

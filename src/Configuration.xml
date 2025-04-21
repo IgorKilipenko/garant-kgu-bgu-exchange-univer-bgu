@@ -40,7 +40,7 @@
 					<v8:content>Обмен БГУ-Университет</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>// Гарант+</Comment>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>ГП_</NamePrefix>
@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev0</Version>
+			<Version>1.0.0.0-dev1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -63,6 +63,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
+			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

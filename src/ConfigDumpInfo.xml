@@ -1,7 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="817259dad313307a9b0f821595a23b5c97f96633"/>
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="d47ee59646e22c5bcbbffa80973c8fc9e87ee87f"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="ea0b05c335ea1dc73913666232cf02c76bd3d083">
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеБГУ" id="12b19f81-4361-4374-9e6b-cc1e1775ad28"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПериодОбработки" id="22feeb92-29a0-4e2c-bd41-a85f08de64d7"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка" id="4e029152-b8fd-4393-8b04-7c26d6093fc9"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдИсточник" id="6e7528fe-392d-4be0-abec-eb9f82ac350a"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Код" id="81ca6e11-8a08-4f32-a5e5-5038e832721a"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеУнивер" id="85619b4d-79b3-41b1-8af8-c192f36425ef"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.ИсправитьКод" id="9a5124d9-1d25-40eb-b643-2b7f028ffb57"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.КодПолучателя" id="a67269db-1ea6-4d36-97d3-10d958d97291"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие" id="bd6e138f-2e55-40ed-88b5-06a54da69c5a"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдПриемник" id="c87cf587-586a-4504-969d-0a04db3c80ef"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Ссылка" id="d200e685-8fb2-43b0-8617-06eafedfb2c4"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.НомерПриказа" id="f64b1a11-919a-4be6-af9b-0762f909d125"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="c0b200da764012d592c04386bb8ae5c4dc55cd76"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
+		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="248fd178ab80ac7f1b8a8fdcb7b1cce39ff52474">
+			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ИзБухгалтеии" id="021d7f4c-27af-4e16-8744-2f2c339869e6"/>
+			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтерию" id="0546e5b8-c908-4adc-8983-725c3ffbb756"/>
+		</Metadata>
+		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.Module" id="c0b50450-6469-45a1-b221-2d40308db222.0" configVersion="d7dd94227ad1cc22ceee948f5bcb4b2e4fc5dedb"/>
 		<Metadata name="Language.Русский" id="07a5f31b-c9ea-42c1-8181-9e854dca28a4" configVersion="a5bc419eac7e9b49ac8ac7c977191cf9e5c7910a"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
