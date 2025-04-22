@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev1</Version>
+			<Version>1.0.0.0-dev2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,6 +64,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
+			<CommonModule>ГП_СервисыИнтеграции</CommonModule>
+			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
 		</ChildObjects>

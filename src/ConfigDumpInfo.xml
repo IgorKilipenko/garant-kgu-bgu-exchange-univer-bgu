@@ -2,11 +2,14 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b" configVersion="d71570cdb80b4a2193daf3fe7dadb7c6968b60b4"/>
-		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер.Module" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b.0" configVersion="f77b5506d63072e479f17eccb278dfbaad75a9a3"/>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="ce187c047dd3cdb6c77d3b2e9b160b0d9a2dae75"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="ea0b05c335ea1dc73913666232cf02c76bd3d083">
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер.Module" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b.0" configVersion="6a98ac4a30262ef0c15e272cddd2c96bc42b176a"/>
+		<Metadata name="CommonModule.ГП_СервисыИнтеграции" id="27b80622-1812-4197-9bd7-86a05537b490" configVersion="133f546511c9e3ecd471bfc480baf06512f3b9b4"/>
+		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="1a491efbacb3e5e5125f234a4bc26f142ac1ee97"/>
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="74670742dc137cd8f9e3c68625aaa9242fc6c1fc"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="96d3175a47bae52995598833c0b04a1ed2b94662">
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеБГУ" id="12b19f81-4361-4374-9e6b-cc1e1775ad28"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПериодОбработки" id="22feeb92-29a0-4e2c-bd41-a85f08de64d7"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ТестовыйРежим" id="37ec598c-ba35-4619-8674-2d803c3c3e9f"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка" id="4e029152-b8fd-4393-8b04-7c26d6093fc9"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдИсточник" id="6e7528fe-392d-4be0-abec-eb9f82ac350a"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Код" id="81ca6e11-8a08-4f32-a5e5-5038e832721a"/>
@@ -19,7 +22,7 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.НомерПриказа" id="f64b1a11-919a-4be6-af9b-0762f909d125"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="e1e2211953f61eea0c5653639c9676380b0b9bbf"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="57a0faca8abc1faf3673d16f46acbab4bc915848"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
 		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="cb18e1ec837799af5bd90c977f7bdd2d3d207cc0">
@@ -28,5 +31,7 @@
 		</Metadata>
 		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.Module" id="c0b50450-6469-45a1-b221-2d40308db222.0" configVersion="a1c9844213978ad72d3a424a9c28c753d8edfcb7"/>
 		<Metadata name="Language.Русский" id="07a5f31b-c9ea-42c1-8181-9e854dca28a4" configVersion="a5bc419eac7e9b49ac8ac7c977191cf9e5c7910a"/>
+		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции" id="388f2178-391b-46ff-9205-e4532aaf48f6" configVersion="fbc19a0631286031226bb056bcf8ed65d7e7612f"/>
+		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции.Schedule" id="388f2178-391b-46ff-9205-e4532aaf48f6.0" configVersion="12435f8dc446f6e0ae5206738a69884541b5bcfc"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
