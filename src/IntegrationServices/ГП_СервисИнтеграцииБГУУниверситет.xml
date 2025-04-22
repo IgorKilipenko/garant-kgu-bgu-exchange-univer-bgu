@@ -21,33 +21,43 @@
 		<ChildObjects>
 			<IntegrationServiceChannel uuid="0546e5b8-c908-4adc-8983-725c3ffbb756">
 				<InternalInfo>
-					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтерию" category="Manager">
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ОбменУниверситет_ВБухгалтерию" category="Manager">
 						<xr:TypeId>c97ab767-cf6b-471f-8844-79e7285a223c</xr:TypeId>
 						<xr:ValueId>6d549c54-c830-45fa-976b-fe53c89e9ce4</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтерию</Name>
-					<Synonym/>
-					<Comment/>
+					<Name>ОбменУниверситет_ВБухгалтерию</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмен университет в бухгалтерию</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>// Гарант+</Comment>
 					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ВБухгалтерию</ExternalIntegrationServiceChannelName>
 					<MessageDirection>Receive</MessageDirection>
-					<ReceiveMessageProcessing>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ВБухгалтериюОбработкаПолученияСообщения</ReceiveMessageProcessing>
+					<ReceiveMessageProcessing>ОбменУниверситет_ВБухгалтериюОбработкаПолученияСообщения</ReceiveMessageProcessing>
 					<Transactioned>true</Transactioned>
 				</Properties>
 			</IntegrationServiceChannel>
-			<IntegrationServiceChannel uuid="021d7f4c-27af-4e16-8744-2f2c339869e6">
+			<IntegrationServiceChannel uuid="35172703-8e54-4135-8741-af4257a83f23">
 				<InternalInfo>
-					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ИзБухгалтеии" category="Manager">
-						<xr:TypeId>cc0b3b96-3aaf-4896-820c-2db9801cf737</xr:TypeId>
-						<xr:ValueId>67006547-7806-40b4-93ae-261e57549f35</xr:ValueId>
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ОбменУниверситет_ИзБухгалтерии" category="Manager">
+						<xr:TypeId>962c893d-bc72-4dc6-be94-b9bc24aa4f18</xr:TypeId>
+						<xr:ValueId>469eb278-edb4-487f-ac66-26a094451c75</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ГарантПлюс_КГУОбменУниверситетБГУ_Основной_ИнтеграцияУниверситетБГУ_ИзБухгалтеии</Name>
-					<Synonym/>
-					<Comment/>
-					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ИзБухгалтеии</ExternalIntegrationServiceChannelName>
+					<Name>ОбменУниверситет_ИзБухгалтерии</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмен университет из бухгалтерии</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>// Гарант+</Comment>
+					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ИзБухгалтерии</ExternalIntegrationServiceChannelName>
 					<MessageDirection>Send</MessageDirection>
 					<ReceiveMessageProcessing/>
 					<Transactioned>true</Transactioned>

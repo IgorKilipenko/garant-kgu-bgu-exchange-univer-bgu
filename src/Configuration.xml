@@ -63,6 +63,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
 		</ChildObjects>

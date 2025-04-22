@@ -65,6 +65,11 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<Button name="ПолучитьДанныеУниверситета" id="40">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПолучитьДанныеУниверситета</CommandName>
+							<ExtendedTooltip name="ПолучитьДанныеУниверситетаРасширеннаяПодсказка" id="41"/>
+						</Button>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаДополнительныеНастройки" id="16">
@@ -167,4 +172,21 @@
 			</Save>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПолучитьДанныеУниверситета" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные университета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные университета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьДанныеУниверситета</Action>
+		</Command>
+	</Commands>
 </Form>
