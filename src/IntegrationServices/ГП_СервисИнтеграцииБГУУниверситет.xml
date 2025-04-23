@@ -37,7 +37,7 @@
 					<Comment>// Гарант+</Comment>
 					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ВБухгалтерию</ExternalIntegrationServiceChannelName>
 					<MessageDirection>Receive</MessageDirection>
-					<ReceiveMessageProcessing>ОбменУниверситет_ВБухгалтериюОбработкаПолученияСообщения</ReceiveMessageProcessing>
+					<ReceiveMessageProcessing/>
 					<Transactioned>true</Transactioned>
 				</Properties>
 			</IntegrationServiceChannel>
