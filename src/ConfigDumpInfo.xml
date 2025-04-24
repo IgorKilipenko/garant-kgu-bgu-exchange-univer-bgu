@@ -26,7 +26,7 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.НомерПриказа" id="f64b1a11-919a-4be6-af9b-0762f909d125"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="8386396a8495a797e1e2ac6d69ccee454d675d46"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="4e0f04edc8ddd88e8a6172fa5e057a8112ef8a83"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
 		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="4949486bfc0342c6d3dd2837cff215f2ee4f92b0">
