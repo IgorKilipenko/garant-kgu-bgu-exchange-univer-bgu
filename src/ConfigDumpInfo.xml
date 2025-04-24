@@ -2,12 +2,14 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0" configVersion="df7b0339ffa0d7a4e507cdf3129b4ed02857b455"/>
-		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="9296d7e4d5da84392d21088ac7aa5155ff84d735"/>
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="cb65edc91517600afd57cb748318ee84e4feb967"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b" configVersion="d71570cdb80b4a2193daf3fe7dadb7c6968b60b4"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер.Module" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b.0" configVersion="336ec66394b08a35952ffa33fbe358d8e531c56c"/>
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУПовтИсп" id="d43aea91-233a-4d93-97e4-5b468008540e" configVersion="cd8510b3d15e4057e15c9356cee9234194ab96cb"/>
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУПовтИсп.Module" id="d43aea91-233a-4d93-97e4-5b468008540e.0" configVersion="a741cb4b7779b6658ab7a09a360096c3c623a032"/>
 		<Metadata name="CommonModule.ГП_СервисыИнтеграции" id="27b80622-1812-4197-9bd7-86a05537b490" configVersion="133f546511c9e3ecd471bfc480baf06512f3b9b4"/>
-		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="0fbe1ef6c63efb3ebb9f22d60f577aaa0b174f82"/>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="4320b0f65dda82fdb5bf77f1dc2c05177f8b9661"/>
+		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="d6efbca2a581a6827f569ceb7e2edce8e245d562"/>
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="ee1b7c5c96746221d7b49307c6365c2577cd2027"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="96d3175a47bae52995598833c0b04a1ed2b94662">
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеБГУ" id="12b19f81-4361-4374-9e6b-cc1e1775ad28"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПериодОбработки" id="22feeb92-29a0-4e2c-bd41-a85f08de64d7"/>

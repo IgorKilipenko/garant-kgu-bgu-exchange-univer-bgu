@@ -65,6 +65,7 @@
 			<Language>Русский</Language>
 			<CommonModule>ГП_ОбменУниверситетБГУ</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
+			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
 			<CommonModule>ГП_СервисыИнтеграции</CommonModule>
 			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
