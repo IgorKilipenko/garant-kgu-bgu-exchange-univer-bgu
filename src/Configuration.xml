@@ -68,6 +68,9 @@
 			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
 			<CommonModule>ГП_СервисыИнтеграции</CommonModule>
 			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
+			<Catalog>Организации</Catalog>
+			<Catalog>Подразделения</Catalog>
+			<Document>ПриказОбразование</Document>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
 		</ChildObjects>

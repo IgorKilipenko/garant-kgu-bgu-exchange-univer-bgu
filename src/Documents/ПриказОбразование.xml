@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="5cc479fe-dfeb-49e5-8a58-a2256c6d33ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриказОбразование" category="Object">
+				<xr:TypeId>d134a216-49b0-4654-a4d4-721756030356</xr:TypeId>
+				<xr:ValueId>b6785e48-c705-4b14-9335-a6cb39e2f29b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриказОбразование" category="Ref">
+				<xr:TypeId>f0692eaf-9943-4aca-b636-0b8da504f69f</xr:TypeId>
+				<xr:ValueId>65958210-fae4-4db5-a482-2097504a3d8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриказОбразование" category="Selection">
+				<xr:TypeId>acb418a0-77e6-4dff-a8e0-1938c0c582ef</xr:TypeId>
+				<xr:ValueId>68b3447a-3b64-49c0-8701-ff3ac065a33f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриказОбразование" category="List">
+				<xr:TypeId>2e730c47-352f-46eb-b42b-795fb14684c7</xr:TypeId>
+				<xr:ValueId>36df5a88-de08-4885-bb03-58cd15b19143</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриказОбразование" category="Manager">
+				<xr:TypeId>a8d03bb2-e94c-4295-917b-5707eb69e84a</xr:TypeId>
+				<xr:ValueId>78b517f7-28e5-4ffb-abab-f02e3752ac6a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриказОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e4b826aa-a174-4485-94a2-4aedb6c479e3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

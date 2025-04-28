@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
+		<Metadata name="Catalog.Организации" id="c8116e70-3dcb-4178-bc0e-879d9d95113d" configVersion="57e66633e74dab6a38b367da55e198793a3ea440"/>
+		<Metadata name="Catalog.Подразделения" id="288bb08f-bc61-419b-8e3a-253954c88a10" configVersion="e662031efb1c199cde0f438caaa2afdba8006dd0"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0" configVersion="df7b0339ffa0d7a4e507cdf3129b4ed02857b455"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="ec2374f2b6b975cf8c7ec6921e4c2ffb283210dc"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b" configVersion="d71570cdb80b4a2193daf3fe7dadb7c6968b60b4"/>
@@ -9,26 +11,45 @@
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУПовтИсп.Module" id="d43aea91-233a-4d93-97e4-5b468008540e.0" configVersion="5946d636ff7df6f16727ada8495b53b6838cf912"/>
 		<Metadata name="CommonModule.ГП_СервисыИнтеграции" id="27b80622-1812-4197-9bd7-86a05537b490" configVersion="133f546511c9e3ecd471bfc480baf06512f3b9b4"/>
 		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="2259926edf44fa4b1b6c2381c6b07547db8a5423"/>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="cefcd6738e7ca6f491b53fdabe361fa4240d8eb1"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="96d3175a47bae52995598833c0b04a1ed2b94662">
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="2589c2d16b79e0680d43e4c26a5bd1e1a6b5fbb4"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="16c74f0a056d64f0fff9dd82d5689ccb839cd845">
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.НаименованиеУниверситет" id="0c57c6fd-1b35-42d9-bbb0-fc04dab4eed4"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты.Attribute.КодУниверситет" id="10be6eee-4793-46cf-be9a-4c6f07e2258d"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеБГУ" id="12b19f81-4361-4374-9e6b-cc1e1775ad28"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПериодОбработки" id="22feeb92-29a0-4e2c-bd41-a85f08de64d7"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.Приказ" id="2b74dbad-f1f7-45e9-b04f-3757a0bc6d18"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.Дата" id="33ba10f0-6a16-4827-8972-e035093b00ee"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ТестовыйРежим" id="37ec598c-ba35-4619-8674-2d803c3c3e9f"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка" id="4e029152-b8fd-4393-8b04-7c26d6093fc9"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.Приказ" id="50a77e67-7a7b-45d5-8947-08f3940d5abb"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.Организация" id="6cad70c9-a889-4b1a-892c-7886f4139fc4"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдИсточник" id="6e7528fe-392d-4be0-abec-eb9f82ac350a"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Код" id="81ca6e11-8a08-4f32-a5e5-5038e832721a"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.НаименованиеУнивер" id="85619b4d-79b3-41b1-8af8-c192f36425ef"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.ИсправитьКод" id="9a5124d9-1d25-40eb-b643-2b7f028ffb57"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.КодПолучателя" id="a67269db-1ea6-4d36-97d3-10d958d97291"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.ПредставлениеУниверситет" id="a69e8218-83ee-4233-85e9-132f6228faca"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.КодУниверситет" id="a807a2c8-4101-4f55-8a44-3ac1c947b914"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты.Attribute.НаименованиеУниверситет" id="a984eb20-42ae-4769-a652-27a2fb21270f"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.Факультет" id="afe3f0fd-e170-482c-ba4e-918c134af30a"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.НомерУниверситет" id="b59f78e9-3e07-4a18-9b55-5fb8e7695563"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие" id="bd6e138f-2e55-40ed-88b5-06a54da69c5a"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.ИдентификаторУниверситет" id="c3d57787-ba13-4fcb-8dcb-c779fb45ed8b"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты" id="c46e2427-5326-42f3-98e7-1626a2dcb730"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдПриемник" id="c87cf587-586a-4504-969d-0a04db3c80ef"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Ссылка" id="d200e685-8fb2-43b0-8617-06eafedfb2c4"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы" id="d3f10ee9-3f67-4185-b544-6e48f95c9633"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.КанцелярскаяДата" id="dde64ef3-5ec5-4009-9d91-ab9c47eae8f1"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты" id="e2d4cf74-1904-4e37-ac09-cb29d3770a3d"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.НомерПриказа" id="f64b1a11-919a-4be6-af9b-0762f909d125"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты.Attribute.ИдентификаторУниверситет" id="f996691e-9e5a-4ad3-ad30-b0d4ebc2d361"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.ИдентификаторУниверситет" id="faeeb5d4-0250-4892-b9f0-2fbe141cdf39"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="eacadb4784102f32a7ad80364648b5477c0a92a4"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
+		<Metadata name="Document.ПриказОбразование" id="5cc479fe-dfeb-49e5-8a58-a2256c6d33ce" configVersion="b9ac041e4fd3a049c84afca9cfc386cb3ec3270b"/>
 		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="4949486bfc0342c6d3dd2837cff215f2ee4f92b0">
 			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ВБухгалтерию" id="0546e5b8-c908-4adc-8983-725c3ffbb756"/>
 			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ИзБухгалтерии" id="35172703-8e54-4135-8741-af4257a83f23"/>
