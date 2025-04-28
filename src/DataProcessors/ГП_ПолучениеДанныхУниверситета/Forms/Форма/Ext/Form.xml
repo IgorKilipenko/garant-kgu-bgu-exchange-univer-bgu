@@ -65,11 +65,404 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<Button name="ПолучитьДанныеУниверситета" id="40">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ПолучитьДанныеУниверситета</CommandName>
-							<ExtendedTooltip name="ПолучитьДанныеУниверситетаРасширеннаяПодсказка" id="41"/>
-						</Button>
+						<UsualGroup name="ГруппаДействий" id="143">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действий</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа действий</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДействийРасширеннаяПодсказка" id="144"/>
+							<ChildItems>
+								<Button name="ПолучитьДанныеУниверситета" id="40">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ПолучитьДанныеУниверситета</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заполнить</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ПолучитьДанныеУниверситетаРасширеннаяПодсказка" id="41"/>
+								</Button>
+								<Button name="СоздатьОбъектыБГУ" id="145">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<DefaultButton>true</DefaultButton>
+									<CommandName>Form.Command.СоздатьОбъектыБГУ</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.Сопоставить</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Создать</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СоздатьОбъектыБГУРасширеннаяПодсказка" id="146"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДанныеЗагрузки" id="42">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Данные загрузки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные загрузки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДанныеЗагрузкиРасширеннаяПодсказка" id="43"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПриказыЗагрузки" id="81">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Приказы:</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа приказы загрузки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Behavior>Collapsible</Behavior>
+									<ExtendedTooltip name="ГруппаПриказыЗагрузкиРасширеннаяПодсказка" id="82"/>
+									<ChildItems>
+										<Table name="Приказы" id="44">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Приказы</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ПриказыКонтекстноеМеню" id="45"/>
+											<AutoCommandBar name="ПриказыКоманднаяПанель" id="46"/>
+											<ExtendedTooltip name="ПриказыРасширеннаяПодсказка" id="47"/>
+											<SearchStringAddition name="ПриказыСтрокаПоиска" id="48">
+												<AdditionSource>
+													<Item>Приказы</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриказыСтрокаПоискаКонтекстноеМеню" id="49"/>
+												<ExtendedTooltip name="ПриказыСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ПриказыСостояниеПросмотра" id="51">
+												<AdditionSource>
+													<Item>Приказы</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриказыСостояниеПросмотраКонтекстноеМеню" id="52"/>
+												<ExtendedTooltip name="ПриказыСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ПриказыУправлениеПоиском" id="54">
+												<AdditionSource>
+													<Item>Приказы</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ПриказыУправлениеПоискомКонтекстноеМеню" id="55"/>
+												<ExtendedTooltip name="ПриказыУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="ПриказыНомерСтроки" id="57">
+													<DataPath>Объект.Приказы.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПриказыНомерСтрокиКонтекстноеМеню" id="58"/>
+													<ExtendedTooltip name="ПриказыНомерСтрокиРасширеннаяПодсказка" id="59"/>
+												</LabelField>
+												<InputField name="ПриказыПриказ" id="60">
+													<DataPath>Объект.Приказы.Приказ</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>false</ClearButton>
+													<SpinButton>false</SpinButton>
+													<CreateButton>false</CreateButton>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<TextEdit>false</TextEdit>
+													<ContextMenu name="ПриказыПриказКонтекстноеМеню" id="61"/>
+													<ExtendedTooltip name="ПриказыПриказРасширеннаяПодсказка" id="62"/>
+													<Events>
+														<Event name="EditTextChange">ПриказыПриказИзменениеТекстаРедактирования</Event>
+													</Events>
+												</InputField>
+												<InputField name="ПриказыОрганизация" id="63">
+													<DataPath>Объект.Приказы.Организация</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыОрганизацияКонтекстноеМеню" id="64"/>
+													<ExtendedTooltip name="ПриказыОрганизацияРасширеннаяПодсказка" id="65"/>
+												</InputField>
+												<InputField name="ПриказыНомерУниверситет" id="66">
+													<DataPath>Объект.Приказы.НомерУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыНомерУниверситетКонтекстноеМеню" id="67"/>
+													<ExtendedTooltip name="ПриказыНомерУниверситетРасширеннаяПодсказка" id="68"/>
+												</InputField>
+												<InputField name="ПриказыИдентификаторУниверситет" id="69">
+													<DataPath>Объект.Приказы.ИдентификаторУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыИдентификаторУниверситетКонтекстноеМеню" id="70"/>
+													<ExtendedTooltip name="ПриказыИдентификаторУниверситетРасширеннаяПодсказка" id="71"/>
+												</InputField>
+												<InputField name="ПриказыДата" id="72">
+													<DataPath>Объект.Приказы.Дата</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыДатаКонтекстноеМеню" id="73"/>
+													<ExtendedTooltip name="ПриказыДатаРасширеннаяПодсказка" id="74"/>
+												</InputField>
+												<InputField name="ПриказыКанцелярскаяДата" id="75">
+													<DataPath>Объект.Приказы.КанцелярскаяДата</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыКанцелярскаяДатаКонтекстноеМеню" id="76"/>
+													<ExtendedTooltip name="ПриказыКанцелярскаяДатаРасширеннаяПодсказка" id="77"/>
+												</InputField>
+												<InputField name="ПриказыПредставлениеУниверситет" id="78">
+													<DataPath>Объект.Приказы.ПредставлениеУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыПредставлениеУниверситетКонтекстноеМеню" id="79"/>
+													<ExtendedTooltip name="ПриказыПредставлениеУниверситетРасширеннаяПодсказка" id="80"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаФакультетыЗагрузки" id="83">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Факультеты:</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа факультеты загрузки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="ГруппаФакультетыЗагрузкиРасширеннаяПодсказка" id="84"/>
+									<ChildItems>
+										<Table name="Факультеты" id="85">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Факультеты</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ФакультетыКонтекстноеМеню" id="86"/>
+											<AutoCommandBar name="ФакультетыКоманднаяПанель" id="87"/>
+											<ExtendedTooltip name="ФакультетыРасширеннаяПодсказка" id="88"/>
+											<SearchStringAddition name="ФакультетыСтрокаПоиска" id="89">
+												<AdditionSource>
+													<Item>Факультеты</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ФакультетыСтрокаПоискаКонтекстноеМеню" id="90"/>
+												<ExtendedTooltip name="ФакультетыСтрокаПоискаРасширеннаяПодсказка" id="91"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ФакультетыСостояниеПросмотра" id="92">
+												<AdditionSource>
+													<Item>Факультеты</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ФакультетыСостояниеПросмотраКонтекстноеМеню" id="93"/>
+												<ExtendedTooltip name="ФакультетыСостояниеПросмотраРасширеннаяПодсказка" id="94"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ФакультетыУправлениеПоиском" id="95">
+												<AdditionSource>
+													<Item>Факультеты</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ФакультетыУправлениеПоискомКонтекстноеМеню" id="96"/>
+												<ExtendedTooltip name="ФакультетыУправлениеПоискомРасширеннаяПодсказка" id="97"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="ФакультетыНомерСтроки" id="98">
+													<DataPath>Объект.Факультеты.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ФакультетыНомерСтрокиКонтекстноеМеню" id="99"/>
+													<ExtendedTooltip name="ФакультетыНомерСтрокиРасширеннаяПодсказка" id="100"/>
+												</LabelField>
+												<InputField name="ФакультетыПодразделение" id="147">
+													<DataPath>1/0:e2d4cf74-1904-4e37-ac09-cb29d3770a3d/0:261024a8-bc73-4098-a152-123382824d67</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ФакультетыПодразделениеКонтекстноеМеню" id="148"/>
+													<ExtendedTooltip name="ФакультетыПодразделениеРасширеннаяПодсказка" id="149"/>
+												</InputField>
+												<InputField name="ФакультетыФакультет" id="104">
+													<DataPath>Объект.Факультеты.Факультет</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ФакультетыФакультетКонтекстноеМеню" id="105"/>
+													<ExtendedTooltip name="ФакультетыФакультетРасширеннаяПодсказка" id="106"/>
+												</InputField>
+												<InputField name="ФакультетыКодУниверситет" id="107">
+													<DataPath>Объект.Факультеты.КодУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ФакультетыКодУниверситетКонтекстноеМеню" id="108"/>
+													<ExtendedTooltip name="ФакультетыКодУниверситетРасширеннаяПодсказка" id="109"/>
+												</InputField>
+												<InputField name="ФакультетыНаименованиеУниверситет" id="110">
+													<DataPath>Объект.Факультеты.НаименованиеУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ФакультетыНаименованиеУниверситетКонтекстноеМеню" id="111"/>
+													<ExtendedTooltip name="ФакультетыНаименованиеУниверситетРасширеннаяПодсказка" id="112"/>
+												</InputField>
+												<InputField name="ФакультетыИдентификаторУниверситет" id="113">
+													<DataPath>Объект.Факультеты.ИдентификаторУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ФакультетыИдентификаторУниверситетКонтекстноеМеню" id="114"/>
+													<ExtendedTooltip name="ФакультетыИдентификаторУниверситетРасширеннаяПодсказка" id="115"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаСтудентыЗагрузки" id="116">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Студенты:</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа студенты загрузки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="ГруппаСтудентыЗагрузкиРасширеннаяПодсказка" id="117"/>
+									<ChildItems>
+										<Table name="Студенты" id="118">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Студенты</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СтудентыКонтекстноеМеню" id="119"/>
+											<AutoCommandBar name="СтудентыКоманднаяПанель" id="120"/>
+											<ExtendedTooltip name="СтудентыРасширеннаяПодсказка" id="121"/>
+											<SearchStringAddition name="СтудентыСтрокаПоиска" id="122">
+												<AdditionSource>
+													<Item>Студенты</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СтудентыСтрокаПоискаКонтекстноеМеню" id="123"/>
+												<ExtendedTooltip name="СтудентыСтрокаПоискаРасширеннаяПодсказка" id="124"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СтудентыСостояниеПросмотра" id="125">
+												<AdditionSource>
+													<Item>Студенты</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СтудентыСостояниеПросмотраКонтекстноеМеню" id="126"/>
+												<ExtendedTooltip name="СтудентыСостояниеПросмотраРасширеннаяПодсказка" id="127"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СтудентыУправлениеПоиском" id="128">
+												<AdditionSource>
+													<Item>Студенты</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СтудентыУправлениеПоискомКонтекстноеМеню" id="129"/>
+												<ExtendedTooltip name="СтудентыУправлениеПоискомРасширеннаяПодсказка" id="130"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="СтудентыНомерСтроки" id="131">
+													<DataPath>Объект.Студенты.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СтудентыНомерСтрокиКонтекстноеМеню" id="132"/>
+													<ExtendedTooltip name="СтудентыНомерСтрокиРасширеннаяПодсказка" id="133"/>
+												</LabelField>
+												<InputField name="СтудентыКодУниверситет" id="134">
+													<DataPath>Объект.Студенты.КодУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыКодУниверситетКонтекстноеМеню" id="135"/>
+													<ExtendedTooltip name="СтудентыКодУниверситетРасширеннаяПодсказка" id="136"/>
+												</InputField>
+												<InputField name="СтудентыНаименованиеУниверситет" id="137">
+													<DataPath>Объект.Студенты.НаименованиеУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыНаименованиеУниверситетКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="СтудентыНаименованиеУниверситетРасширеннаяПодсказка" id="139"/>
+												</InputField>
+												<InputField name="СтудентыИдентификаторУниверситет" id="140">
+													<DataPath>Объект.Студенты.ИдентификаторУниверситет</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыИдентификаторУниверситетКонтекстноеМеню" id="141"/>
+													<ExtendedTooltip name="СтудентыИдентификаторУниверситетРасширеннаяПодсказка" id="142"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаДополнительныеНастройки" id="16">
@@ -187,6 +580,20 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучитьДанныеУниверситета</Action>
+		</Command>
+		<Command name="СоздатьОбъектыБГУ" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать объекты БГУ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать объекты БГУ</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>

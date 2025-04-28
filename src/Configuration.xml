@@ -63,6 +63,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Сопоставить</CommonPicture>
 			<CommonModule>ГП_ОбменУниверситетБГУ</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
@@ -70,6 +72,7 @@
 			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Document>ПриказОбразование</Document>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
