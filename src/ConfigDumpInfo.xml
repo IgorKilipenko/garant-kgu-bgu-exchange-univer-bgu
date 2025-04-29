@@ -49,7 +49,7 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.ИдентификаторУниверситет" id="faeeb5d4-0250-4892-b9f0-2fbe141cdf39"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="787d525a2333c056af006db9d61b0a43a5f27a8b"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="26fb5b3c5a182904f1ad9b0b9f909120ff4155c7"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
 		<Metadata name="Document.ПриказОбразование" id="5cc479fe-dfeb-49e5-8a58-a2256c6d33ce" configVersion="b9ac041e4fd3a049c84afca9cfc386cb3ec3270b"/>
