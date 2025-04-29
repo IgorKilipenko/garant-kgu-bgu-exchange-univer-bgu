@@ -5,7 +5,7 @@
 		<Metadata name="Catalog.Подразделения" id="288bb08f-bc61-419b-8e3a-253954c88a10" configVersion="e662031efb1c199cde0f438caaa2afdba8006dd0"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="98ba81f2-305b-4835-9cbb-d3d2b9ba69d7" configVersion="5ad1386edc231d604e91cadd5b6857441b03a516"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0" configVersion="df7b0339ffa0d7a4e507cdf3129b4ed02857b455"/>
-		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="9c9bb7daa9f477b91422c4de9fcb5a520e0e85fe"/>
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="87af15e7d8a0de1c5ffc70c3f00f70b6d7d83acb"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b" configVersion="d71570cdb80b4a2193daf3fe7dadb7c6968b60b4"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер.Module" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b.0" configVersion="0c09137bede87427fa02dd485c0d60367b2595eb"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУПовтИсп" id="d43aea91-233a-4d93-97e4-5b468008540e" configVersion="cd8510b3d15e4057e15c9356cee9234194ab96cb"/>
@@ -14,7 +14,7 @@
 		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="9b2369e6ea417f0eb1852f92501b0b43ff7c38b8"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="81501cc8-8798-4cd9-bddf-4952aba081ca" configVersion="35b0c6acba6c0fa5ff98d1f823366165e91f544b"/>
 		<Metadata name="CommonPicture.Сопоставить" id="f8a0c804-b6b6-4b18-8ddb-0421d1664ce5" configVersion="5ea75b4f9baf314407e4b8e084fb3ad6974c0fa3"/>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="953fd921d3ef5922815fd383b5e5617c03649b33"/>
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="e3c6db03c9fbc0f3ac4341055a492bf3bc435c94"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="57c9205c760b782febb1f99c4863f4be041bd9ba">
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.НаименованиеУниверситет" id="0c57c6fd-1b35-42d9-bbb0-fc04dab4eed4"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты.Attribute.КодУниверситет" id="10be6eee-4793-46cf-be9a-4c6f07e2258d"/>
@@ -49,7 +49,7 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.ИдентификаторУниверситет" id="faeeb5d4-0250-4892-b9f0-2fbe141cdf39"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="b777e412cf69093322ae3ca1f12be17cecb3372a"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="787d525a2333c056af006db9d61b0a43a5f27a8b"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
 		<Metadata name="Document.ПриказОбразование" id="5cc479fe-dfeb-49e5-8a58-a2256c6d33ce" configVersion="b9ac041e4fd3a049c84afca9cfc386cb3ec3270b"/>
