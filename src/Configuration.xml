@@ -73,6 +73,7 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ВидыПриказовОбразование</Catalog>
 			<Document>ПриказОбразование</Document>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>

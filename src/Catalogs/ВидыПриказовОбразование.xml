@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="85c9144a-74da-49df-aec7-b2d84d651436">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыПриказовОбразование" category="Object">
+				<xr:TypeId>5c4085e4-6209-4548-a605-7e1427f36120</xr:TypeId>
+				<xr:ValueId>27f94d8c-a501-4a09-8fb6-576c8abb8999</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыПриказовОбразование" category="Ref">
+				<xr:TypeId>acead468-8cf7-49e0-9f6b-2c4790b139e7</xr:TypeId>
+				<xr:ValueId>81bedb6d-d9c9-4c79-9614-70da83637952</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыПриказовОбразование" category="Selection">
+				<xr:TypeId>1105508c-82fd-4975-bf25-c2374820c5de</xr:TypeId>
+				<xr:ValueId>f0e38d1d-f543-4e41-8463-4ccf9e3d5d40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыПриказовОбразование" category="List">
+				<xr:TypeId>447a6031-32ec-4fb9-8a04-f3b77172d46c</xr:TypeId>
+				<xr:ValueId>c3f64abf-6076-4bc2-b644-0ac8b639a81c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыПриказовОбразование" category="Manager">
+				<xr:TypeId>187f5b5c-e771-427b-af34-cd3dc01b984d</xr:TypeId>
+				<xr:ValueId>38088ce5-4163-405e-8f98-9107938d9939</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыПриказовОбразование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>27f73046-b186-4423-8609-15bd84454e7a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
