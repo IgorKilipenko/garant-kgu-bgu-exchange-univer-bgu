@@ -5,7 +5,7 @@
 		<Metadata name="Catalog.Подразделения" id="288bb08f-bc61-419b-8e3a-253954c88a10" configVersion="e662031efb1c199cde0f438caaa2afdba8006dd0"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="98ba81f2-305b-4835-9cbb-d3d2b9ba69d7" configVersion="5ad1386edc231d604e91cadd5b6857441b03a516"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0" configVersion="df7b0339ffa0d7a4e507cdf3129b4ed02857b455"/>
-		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="5a4546216837c26e86a0fa003d1a759f3392541e"/>
+		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУ.Module" id="f737e5ac-1c82-4bca-b254-8d0bd0b299f0.0" configVersion="9c9bb7daa9f477b91422c4de9fcb5a520e0e85fe"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b" configVersion="d71570cdb80b4a2193daf3fe7dadb7c6968b60b4"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУКлиентСервер.Module" id="813f0e23-ab6c-4292-82ee-3d2eea3a187b.0" configVersion="0c09137bede87427fa02dd485c0d60367b2595eb"/>
 		<Metadata name="CommonModule.ГП_ОбменУниверситетБГУПовтИсп" id="d43aea91-233a-4d93-97e4-5b468008540e" configVersion="cd8510b3d15e4057e15c9356cee9234194ab96cb"/>
