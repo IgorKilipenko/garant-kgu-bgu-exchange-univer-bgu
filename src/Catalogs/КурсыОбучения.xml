@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="dfd8e4dd-7789-4d70-ade3-92ff449bca4f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КурсыОбучения" category="Object">
+				<xr:TypeId>871b168f-0fb3-4f1e-b56f-910b71640c3a</xr:TypeId>
+				<xr:ValueId>3ae2f1e7-0ad1-4c2a-84b2-c8ec4cfbb577</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КурсыОбучения" category="Ref">
+				<xr:TypeId>51cfb577-2947-4c7a-9821-78a97b9a2945</xr:TypeId>
+				<xr:ValueId>99501e59-7f26-4f27-a8e4-de8c82d96591</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КурсыОбучения" category="Selection">
+				<xr:TypeId>40675d09-4650-433b-84db-911cb45a0dab</xr:TypeId>
+				<xr:ValueId>4e87d379-7469-4a38-aa0f-b7cf03b2487c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КурсыОбучения" category="List">
+				<xr:TypeId>7c1da80d-ea11-4d55-9dce-e73ecb37adee</xr:TypeId>
+				<xr:ValueId>72809688-b824-4f3b-9adc-6efcc9f2e138</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КурсыОбучения" category="Manager">
+				<xr:TypeId>e7d7fc9d-443d-4482-9d70-53d983cd5555</xr:TypeId>
+				<xr:ValueId>d8eb15bc-fee1-4c23-8543-3d9284616f64</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КурсыОбучения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0bf2832e-753c-4a2b-a697-f7f24195af89</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

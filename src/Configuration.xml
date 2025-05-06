@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev6</Version>
+			<Version>1.0.0.0-dev7</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -70,12 +70,23 @@
 			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
 			<CommonModule>ГП_СервисыИнтеграции</CommonModule>
 			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
+			<Constant>ГП_РежимОбменаУниверситетБГУ</Constant>
+			<CommonForm>ГП_РежимОбменаУниверситетБГУ</CommonForm>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ВидыПриказовОбразование</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>КурсыОбучения</Catalog>
+			<Catalog>Договоры</Catalog>
+			<Catalog>Студенты</Catalog>
+			<Catalog>СпециальностиОбразование</Catalog>
 			<Document>ПриказОбразование</Document>
+			<Enum>ГП_РежимыРаботыОбменаУниверситетБГУ</Enum>
 			<DataProcessor>ГП_ПолучениеДанныхУниверситета</DataProcessor>
+			<InformationRegister>ГП_ИдентификаторыОбменаУниверситетБГУ</InformationRegister>
+			<InformationRegister>ГП_СоответствиеНаименованийОбъектовОбменаУниверситетБГУ</InformationRegister>
+			<ChartOfCharacteristicTypes>ГП_ТипыОбъектовОбменаУниверситетБГУ</ChartOfCharacteristicTypes>
 			<IntegrationService>ГП_СервисИнтеграцииБГУУниверситет</IntegrationService>
 		</ChildObjects>
 	</Configuration>

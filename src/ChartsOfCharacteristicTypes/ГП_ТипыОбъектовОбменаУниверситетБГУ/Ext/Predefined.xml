@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.18">
+	<Item id="970310ab-2346-495d-92dd-608f7ef7c87c">
+		<Name>ВидПриказа</Name>
+		<Code>000000002</Code>
+		<Description>Вид приказа</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыПриказовОбразование</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ddc3964-5272-4fd8-84b0-51460766f998">
+		<Name>Договор</Name>
+		<Code>000000006</Code>
+		<Description>Договор</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Договоры</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a115aa55-7051-4bed-9252-5bb2a50844f2">
+		<Name>КонтрагентСтудента</Name>
+		<Code>000000007</Code>
+		<Description>Контрагент студента</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06a93b15-28c5-4fc2-a9b1-f9bb966d578d">
+		<Name>Курс</Name>
+		<Code>000000005</Code>
+		<Description>Курс</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.КурсыОбучения</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="12181d1a-2f70-4085-91a7-4e88f3c66946">
+		<Name>Приказ</Name>
+		<Code>000000001</Code>
+		<Description>Приказ</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПриказОбразование</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34706eaf-aad7-4ee4-aed3-d4f57acede0e">
+		<Name>Специальность</Name>
+		<Code>000000009</Code>
+		<Description>Специальности</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СпециальностиОбразование</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="80b2f148-bc5a-45af-aa1c-dda7b5517441">
+		<Name>Студент</Name>
+		<Code>000000003</Code>
+		<Description>Студент</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Студенты</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1a2fdab0-d616-4c21-9afd-0e5d94dd04b0">
+		<Name>Факультет</Name>
+		<Code>000000008</Code>
+		<Description>Факультет</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Подразделения</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca41d39d-315f-486b-abe5-79ef155e2b3e">
+		<Name>ФизическоеЛицоСтудента</Name>
+		<Code>000000004</Code>
+		<Description>Физическое лицо студента</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ФизическиеЛица</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
