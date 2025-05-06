@@ -63,6 +63,50 @@
 					<Transactioned>true</Transactioned>
 				</Properties>
 			</IntegrationServiceChannel>
+			<IntegrationServiceChannel uuid="1940bde9-a5ac-4367-8c3f-c528b799852b">
+				<InternalInfo>
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ОбменУниверситет_ВБухгалтериюТест" category="Manager">
+						<xr:TypeId>7fda6eab-c9ff-4d3d-b3d9-c3a618abf20b</xr:TypeId>
+						<xr:ValueId>ac6d1d97-224d-45e3-9f45-7ab599d11ff9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОбменУниверситет_ВБухгалтериюТест</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмен университет в бухгалтерию (тестовый)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Тестовый канал получения данных</Comment>
+					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ВБухгалтериюТест</ExternalIntegrationServiceChannelName>
+					<MessageDirection>Receive</MessageDirection>
+					<ReceiveMessageProcessing/>
+					<Transactioned>true</Transactioned>
+				</Properties>
+			</IntegrationServiceChannel>
+			<IntegrationServiceChannel uuid="41c2ba04-ef6d-4223-ba2a-e8b3e26231bd">
+				<InternalInfo>
+					<xr:GeneratedType name="IntegrationServiceChannelManager.ГП_СервисИнтеграцииБГУУниверситет.ОбменУниверситет_ИзБухгалтерииТест" category="Manager">
+						<xr:TypeId>a96e838d-ffe9-4e91-baeb-5b1fdd60f145</xr:TypeId>
+						<xr:ValueId>dd4ee405-eb1a-41e0-a75b-583c0ece752b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОбменУниверситет_ИзБухгалтерииТест</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обмен университет из бухгалтерии (тестовый)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Тестовый канал получения данных</Comment>
+					<ExternalIntegrationServiceChannelName>ГарантПлюс::КГУОбменУниверситетБГУ::Основной::ИнтеграцияУниверситетБГУ.ИзБухгалтерииТест</ExternalIntegrationServiceChannelName>
+					<MessageDirection>Send</MessageDirection>
+					<ReceiveMessageProcessing/>
+					<Transactioned>true</Transactioned>
+				</Properties>
+			</IntegrationServiceChannel>
 		</ChildObjects>
 	</IntegrationService>
 </MetaDataObject>

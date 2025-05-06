@@ -95,11 +95,13 @@
 			<Metadata name="InformationRegister.ГП_СоответствиеНаименованийОбъектовОбменаУниверситетБГУ.Dimension.ВидОбъектаОбмена" id="c6f9560c-129f-4c32-a435-b64554ba44b1"/>
 			<Metadata name="InformationRegister.ГП_СоответствиеНаименованийОбъектовОбменаУниверситетБГУ.Dimension.Наименование" id="cee83826-7c51-444c-9f08-b395ff1a8db0"/>
 		</Metadata>
-		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="4949486bfc0342c6d3dd2837cff215f2ee4f92b0">
+		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет" id="c0b50450-6469-45a1-b221-2d40308db222" configVersion="3aec7251190d155a95162157fc5fdfbedb59fc94">
 			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ВБухгалтерию" id="0546e5b8-c908-4adc-8983-725c3ffbb756"/>
+			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ВБухгалтериюТест" id="1940bde9-a5ac-4367-8c3f-c528b799852b"/>
 			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ИзБухгалтерии" id="35172703-8e54-4135-8741-af4257a83f23"/>
+			<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.IntegrationServiceChannel.ОбменУниверситет_ИзБухгалтерииТест" id="41c2ba04-ef6d-4223-ba2a-e8b3e26231bd"/>
 		</Metadata>
-		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.Module" id="c0b50450-6469-45a1-b221-2d40308db222.0" configVersion="a1c9844213978ad72d3a424a9c28c753d8edfcb7"/>
+		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.Module" id="c0b50450-6469-45a1-b221-2d40308db222.0" configVersion="fea19b9d6431849ca40eed561a74060fe30a0ba2"/>
 		<Metadata name="Language.Русский" id="07a5f31b-c9ea-42c1-8181-9e854dca28a4" configVersion="a5bc419eac7e9b49ac8ac7c977191cf9e5c7910a"/>
 		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции" id="388f2178-391b-46ff-9205-e4532aaf48f6" configVersion="fbc19a0631286031226bb056bcf8ed65d7e7612f"/>
 		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции.Schedule" id="388f2178-391b-46ff-9205-e4532aaf48f6.0" configVersion="12435f8dc446f6e0ae5206738a69884541b5bcfc"/>
