@@ -170,6 +170,38 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="840f7d8a-956f-44bc-8d4f-e6adeb1e9f9d">
+				<Properties>
+					<Name>КоллекцияТаблицИдентификаторовСвязей</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коллекция таблиц идентификаторов связей</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type/>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="bd6e138f-2e55-40ed-88b5-06a54da69c5a">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ГП_ПолучениеДанныхУниверситета.Соответствие" category="TabularSection">
@@ -654,7 +686,7 @@
 					</Attribute>
 					<Attribute uuid="b59f78e9-3e07-4a18-9b55-5fb8e7695563">
 						<Properties>
-							<Name>НомерУниверситет</Name>
+							<Name>НомерПриказа</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -694,7 +726,7 @@
 					</Attribute>
 					<Attribute uuid="c3d57787-ba13-4fcb-8dcb-c779fb45ed8b">
 						<Properties>
-							<Name>ИдентификаторУниверситет</Name>
+							<Name>Идентификатор</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -812,7 +844,7 @@
 					</Attribute>
 					<Attribute uuid="a69e8218-83ee-4233-85e9-132f6228faca">
 						<Properties>
-							<Name>ПредставлениеУниверситет</Name>
+							<Name>Представление</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -914,7 +946,7 @@
 					</Attribute>
 					<Attribute uuid="a807a2c8-4101-4f55-8a44-3ac1c947b914">
 						<Properties>
-							<Name>КодУниверситет</Name>
+							<Name>Код</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -954,7 +986,7 @@
 					</Attribute>
 					<Attribute uuid="0c57c6fd-1b35-42d9-bbb0-fc04dab4eed4">
 						<Properties>
-							<Name>НаименованиеУниверситет</Name>
+							<Name>Наименование</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -994,7 +1026,7 @@
 					</Attribute>
 					<Attribute uuid="faeeb5d4-0250-4892-b9f0-2fbe141cdf39">
 						<Properties>
-							<Name>ИдентификаторУниверситет</Name>
+							<Name>Идентификатор</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1094,9 +1126,81 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="7cf7c310-1946-4852-a7e0-7fd96a14c077">
+						<Properties>
+							<Name>Контрагент</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Контрагент</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b68b3e6b-e287-4eb1-93d9-ca2df68ee863">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Физическое лицо</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
 					<Attribute uuid="10be6eee-4793-46cf-be9a-4c6f07e2258d">
 						<Properties>
-							<Name>КодУниверситет</Name>
+							<Name>Код</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1136,7 +1240,7 @@
 					</Attribute>
 					<Attribute uuid="a984eb20-42ae-4769-a652-27a2fb21270f">
 						<Properties>
-							<Name>НаименованиеУниверситет</Name>
+							<Name>Наименование</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1176,7 +1280,7 @@
 					</Attribute>
 					<Attribute uuid="f996691e-9e5a-4ad3-ad30-b0d4ebc2d361">
 						<Properties>
-							<Name>ИдентификаторУниверситет</Name>
+							<Name>Идентификатор</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1287,7 +1391,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+								<v8:Type>cfg:CatalogRef.Студенты</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -1412,7 +1516,7 @@
 					</Attribute>
 					<Attribute uuid="f17ae9cb-9cc3-4b97-9390-c144699a55b9">
 						<Properties>
-							<Name>КодУниверситет</Name>
+							<Name>Код</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1452,7 +1556,7 @@
 					</Attribute>
 					<Attribute uuid="0cc85f10-bc13-4f91-a6d9-b0556ffb4996">
 						<Properties>
-							<Name>НаименованиеУниверситет</Name>
+							<Name>Наименование</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1492,7 +1596,7 @@
 					</Attribute>
 					<Attribute uuid="a8c36a6e-d544-4752-bc36-b6351a99b620">
 						<Properties>
-							<Name>ИдентификаторУниверситет</Name>
+							<Name>Идентификатор</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1519,6 +1623,68 @@
 							<MaxValue xsi:nil="true"/>
 							<FillFromFillingValue>false</FillFromFillingValue>
 							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="8f131340-1df1-4711-a2cc-79b5b6e71a38">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ГП_ПолучениеДанныхУниверситета.КурсыОбцчения" category="TabularSection">
+						<xr:TypeId>a161f591-9f31-42eb-9759-39f0b75c5db1</xr:TypeId>
+						<xr:ValueId>08ea0277-f19a-4a28-bcec-5a49b462e289</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ГП_ПолучениеДанныхУниверситета.КурсыОбцчения" category="TabularSectionRow">
+						<xr:TypeId>1ae25951-cf57-415a-be4d-2213a1b191e6</xr:TypeId>
+						<xr:ValueId>bde969f4-cb40-4b37-9afb-77a17de51baa</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>КурсыОбцчения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курсы обцчения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a654e640-f268-4470-bf96-7eb7a4959481">
+						<Properties>
+							<Name>Курс</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Курс</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КурсыОбучения</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>

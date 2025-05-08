@@ -282,21 +282,21 @@
 													<ContextMenu name="ПриказыОрганизацияКонтекстноеМеню" id="64"/>
 													<ExtendedTooltip name="ПриказыОрганизацияРасширеннаяПодсказка" id="65"/>
 												</InputField>
-												<InputField name="ПриказыНомерУниверситет" id="66">
-													<DataPath>Объект.Приказы.НомерУниверситет</DataPath>
+												<InputField name="ПриказыНомерПриказа" id="66">
+													<DataPath>Объект.Приказы.НомерПриказа</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ПриказыНомерУниверситетКонтекстноеМеню" id="67"/>
-													<ExtendedTooltip name="ПриказыНомерУниверситетРасширеннаяПодсказка" id="68"/>
+													<ContextMenu name="ПриказыНомерПриказаКонтекстноеМеню" id="67"/>
+													<ExtendedTooltip name="ПриказыНомерПриказаРасширеннаяПодсказка" id="68"/>
 												</InputField>
-												<InputField name="ПриказыИдентификаторУниверситет" id="69">
-													<DataPath>Объект.Приказы.ИдентификаторУниверситет</DataPath>
+												<InputField name="ПриказыИдентификатор" id="69">
+													<DataPath>Объект.Приказы.Идентификатор</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ПриказыИдентификаторУниверситетКонтекстноеМеню" id="70"/>
-													<ExtendedTooltip name="ПриказыИдентификаторУниверситетРасширеннаяПодсказка" id="71"/>
+													<ContextMenu name="ПриказыИдентификаторКонтекстноеМеню" id="70"/>
+													<ExtendedTooltip name="ПриказыИдентификаторРасширеннаяПодсказка" id="71"/>
 												</InputField>
 												<InputField name="ПриказыДата" id="72">
 													<DataPath>Объект.Приказы.Дата</DataPath>
@@ -314,13 +314,13 @@
 													<ContextMenu name="ПриказыКанцелярскаяДатаКонтекстноеМеню" id="76"/>
 													<ExtendedTooltip name="ПриказыКанцелярскаяДатаРасширеннаяПодсказка" id="77"/>
 												</InputField>
-												<InputField name="ПриказыПредставлениеУниверситет" id="78">
-													<DataPath>Объект.Приказы.ПредставлениеУниверситет</DataPath>
+												<InputField name="ПриказыПредставление" id="78">
+													<DataPath>Объект.Приказы.Представление</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ПриказыПредставлениеУниверситетКонтекстноеМеню" id="79"/>
-													<ExtendedTooltip name="ПриказыПредставлениеУниверситетРасширеннаяПодсказка" id="80"/>
+													<ContextMenu name="ПриказыПредставлениеКонтекстноеМеню" id="79"/>
+													<ExtendedTooltip name="ПриказыПредставлениеРасширеннаяПодсказка" id="80"/>
 												</InputField>
 												<LabelField name="ПриказыШирина" id="162">
 													<DataPath>Объект.Приказы.Ширина</DataPath>
@@ -399,13 +399,6 @@
 													<ContextMenu name="ФакультетыНомерСтрокиКонтекстноеМеню" id="99"/>
 													<ExtendedTooltip name="ФакультетыНомерСтрокиРасширеннаяПодсказка" id="100"/>
 												</LabelField>
-												<InputField name="ФакультетыПодразделение" id="147">
-													<DataPath>1/0:e2d4cf74-1904-4e37-ac09-cb29d3770a3d/0:261024a8-bc73-4098-a152-123382824d67</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ФакультетыПодразделениеКонтекстноеМеню" id="148"/>
-													<ExtendedTooltip name="ФакультетыПодразделениеРасширеннаяПодсказка" id="149"/>
-												</InputField>
 												<InputField name="ФакультетыФакультет" id="104">
 													<DataPath>Объект.Факультеты.Факультет</DataPath>
 													<EditMode>EnterOnInput</EditMode>
@@ -413,29 +406,29 @@
 													<ContextMenu name="ФакультетыФакультетКонтекстноеМеню" id="105"/>
 													<ExtendedTooltip name="ФакультетыФакультетРасширеннаяПодсказка" id="106"/>
 												</InputField>
-												<InputField name="ФакультетыКодУниверситет" id="107">
-													<DataPath>Объект.Факультеты.КодУниверситет</DataPath>
+												<InputField name="ФакультетыКод" id="107">
+													<DataPath>Объект.Факультеты.Код</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ФакультетыКодУниверситетКонтекстноеМеню" id="108"/>
-													<ExtendedTooltip name="ФакультетыКодУниверситетРасширеннаяПодсказка" id="109"/>
+													<ContextMenu name="ФакультетыКодКонтекстноеМеню" id="108"/>
+													<ExtendedTooltip name="ФакультетыКодРасширеннаяПодсказка" id="109"/>
 												</InputField>
-												<InputField name="ФакультетыНаименованиеУниверситет" id="110">
-													<DataPath>Объект.Факультеты.НаименованиеУниверситет</DataPath>
+												<InputField name="ФакультетыНаименование" id="110">
+													<DataPath>Объект.Факультеты.Наименование</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ФакультетыНаименованиеУниверситетКонтекстноеМеню" id="111"/>
-													<ExtendedTooltip name="ФакультетыНаименованиеУниверситетРасширеннаяПодсказка" id="112"/>
+													<ContextMenu name="ФакультетыНаименованиеКонтекстноеМеню" id="111"/>
+													<ExtendedTooltip name="ФакультетыНаименованиеРасширеннаяПодсказка" id="112"/>
 												</InputField>
-												<InputField name="ФакультетыИдентификаторУниверситет" id="113">
-													<DataPath>Объект.Факультеты.ИдентификаторУниверситет</DataPath>
+												<InputField name="ФакультетыИдентификатор" id="113">
+													<DataPath>Объект.Факультеты.Идентификатор</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="ФакультетыИдентификаторУниверситетКонтекстноеМеню" id="114"/>
-													<ExtendedTooltip name="ФакультетыИдентификаторУниверситетРасширеннаяПодсказка" id="115"/>
+													<ContextMenu name="ФакультетыИдентификаторКонтекстноеМеню" id="114"/>
+													<ExtendedTooltip name="ФакультетыИдентификаторРасширеннаяПодсказка" id="115"/>
 												</InputField>
 											</ChildItems>
 										</Table>
@@ -505,29 +498,50 @@
 													<ContextMenu name="СтудентыНомерСтрокиКонтекстноеМеню" id="132"/>
 													<ExtendedTooltip name="СтудентыНомерСтрокиРасширеннаяПодсказка" id="133"/>
 												</LabelField>
-												<InputField name="СтудентыКодУниверситет" id="134">
-													<DataPath>Объект.Студенты.КодУниверситет</DataPath>
-													<ReadOnly>true</ReadOnly>
+												<InputField name="СтудентыСтудент" id="165">
+													<DataPath>Объект.Студенты.Студент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="СтудентыКодУниверситетКонтекстноеМеню" id="135"/>
-													<ExtendedTooltip name="СтудентыКодУниверситетРасширеннаяПодсказка" id="136"/>
+													<ContextMenu name="СтудентыСтудентКонтекстноеМеню" id="166"/>
+													<ExtendedTooltip name="СтудентыСтудентРасширеннаяПодсказка" id="167"/>
 												</InputField>
-												<InputField name="СтудентыНаименованиеУниверситет" id="137">
-													<DataPath>Объект.Студенты.НаименованиеУниверситет</DataPath>
-													<ReadOnly>true</ReadOnly>
+												<InputField name="СтудентыКонтрагент" id="168">
+													<DataPath>Объект.Студенты.Контрагент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="СтудентыНаименованиеУниверситетКонтекстноеМеню" id="138"/>
-													<ExtendedTooltip name="СтудентыНаименованиеУниверситетРасширеннаяПодсказка" id="139"/>
+													<ContextMenu name="СтудентыКонтрагентКонтекстноеМеню" id="169"/>
+													<ExtendedTooltip name="СтудентыКонтрагентРасширеннаяПодсказка" id="170"/>
 												</InputField>
-												<InputField name="СтудентыИдентификаторУниверситет" id="140">
-													<DataPath>Объект.Студенты.ИдентификаторУниверситет</DataPath>
+												<InputField name="СтудентыФизическоеЛицо" id="171">
+													<DataPath>Объект.Студенты.ФизическоеЛицо</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыФизическоеЛицоКонтекстноеМеню" id="172"/>
+													<ExtendedTooltip name="СтудентыФизическоеЛицоРасширеннаяПодсказка" id="173"/>
+												</InputField>
+												<InputField name="СтудентыКод" id="134">
+													<DataPath>Объект.Студенты.Код</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-													<ContextMenu name="СтудентыИдентификаторУниверситетКонтекстноеМеню" id="141"/>
-													<ExtendedTooltip name="СтудентыИдентификаторУниверситетРасширеннаяПодсказка" id="142"/>
+													<ContextMenu name="СтудентыКодКонтекстноеМеню" id="135"/>
+													<ExtendedTooltip name="СтудентыКодРасширеннаяПодсказка" id="136"/>
+												</InputField>
+												<InputField name="СтудентыНаименование" id="137">
+													<DataPath>Объект.Студенты.Наименование</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыНаименованиеКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="СтудентыНаименованиеРасширеннаяПодсказка" id="139"/>
+												</InputField>
+												<InputField name="СтудентыИдентификатор" id="140">
+													<DataPath>Объект.Студенты.Идентификатор</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="СтудентыИдентификаторКонтекстноеМеню" id="141"/>
+													<ExtendedTooltip name="СтудентыИдентификаторРасширеннаяПодсказка" id="142"/>
 												</InputField>
 											</ChildItems>
 										</Table>
