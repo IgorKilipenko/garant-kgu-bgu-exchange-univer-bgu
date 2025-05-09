@@ -117,6 +117,15 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ПапкаСтудентовКонтекстноеМеню" id="177"/>
 									<ExtendedTooltip name="ПапкаСтудентовРасширеннаяПодсказка" id="178"/>
+									<Events>
+										<Event name="OnChange">ПапкаСтудентовПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПапкаКонтрагентов" id="181">
+									<DataPath>Объект.ПапкаКонтрагентов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПапкаКонтрагентовКонтекстноеМеню" id="182"/>
+									<ExtendedTooltip name="ПапкаКонтрагентовРасширеннаяПодсказка" id="183"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -668,6 +677,7 @@
 			<MainAttribute>true</MainAttribute>
 			<Save>
 				<Field>Объект.КодПолучателя</Field>
+				<Field>Объект.ПапкаКонтрагентов</Field>
 				<Field>Объект.ПапкаСтудентов</Field>
 				<Field>Объект.ПериодОбработки</Field>
 			</Save>
