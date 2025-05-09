@@ -88,11 +88,36 @@
 											<ExtendedTooltip name="ДекорацияСтатусПодключенияЗаголовокРасширеннаяПодсказка" id="158"/>
 										</LabelDecoration>
 										<LabelDecoration name="ДекорацияСтатусПодключения" id="159">
+											<TextColor>style:FormTextColor</TextColor>
 											<ContextMenu name="ДекорацияСтатусПодключенияКонтекстноеМеню" id="160"/>
 											<ExtendedTooltip name="ДекорацияСтатусПодключенияРасширеннаяПодсказка" id="161"/>
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиРасположений" id="174">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки расположений</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Collapsible</Behavior>
+							<ExtendedTooltip name="ГруппаНастройкиРасположенийРасширеннаяПодсказка" id="175"/>
+							<ChildItems>
+								<InputField name="ПапкаСтудентов" id="176">
+									<DataPath>Объект.ПапкаСтудентов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПапкаСтудентовКонтекстноеМеню" id="177"/>
+									<ExtendedTooltip name="ПапкаСтудентовРасширеннаяПодсказка" id="178"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаПараметрыОтбора" id="8">
@@ -164,6 +189,7 @@
 									<Type>UsualButton</Type>
 									<Representation>PictureAndText</Representation>
 									<DefaultButton>true</DefaultButton>
+									<Enabled>false</Enabled>
 									<CommandName>Form.Command.СоздатьОбъектыБГУ</CommandName>
 									<Picture>
 										<xr:Ref>CommonPicture.Сопоставить</xr:Ref>
@@ -179,29 +205,26 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаДанныеЗагрузки" id="42">
+						<Pages name="ГруппаСтраницыДанныхЗагрузки" id="179">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Данные загрузки</v8:content>
+									<v8:content>Данные</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа данные загрузки</v8:content>
+									<v8:content>Группа страницы данных загрузки</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаДанныеЗагрузкиРасширеннаяПодсказка" id="43"/>
+							<ExtendedTooltip name="ГруппаСтраницыДанныхЗагрузкиРасширеннаяПодсказка" id="180"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаПриказыЗагрузки" id="81">
+								<Page name="ГруппаПриказыЗагрузки" id="81">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Приказы:</v8:content>
+											<v8:content>Приказы</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
@@ -210,7 +233,7 @@
 											<v8:content>Группа приказы загрузки</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Behavior>Collapsible</Behavior>
+									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ГруппаПриказыЗагрузкиРасширеннаяПодсказка" id="82"/>
 									<ChildItems>
 										<Table name="Приказы" id="44">
@@ -334,12 +357,12 @@
 											</ChildItems>
 										</Table>
 									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаФакультетыЗагрузки" id="83">
+								</Page>
+								<Page name="ГруппаФакультетыЗагрузки" id="83">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Факультеты:</v8:content>
+											<v8:content>Факультеты</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
@@ -348,8 +371,7 @@
 											<v8:content>Группа факультеты загрузки</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Behavior>Collapsible</Behavior>
-									<Collapsed>true</Collapsed>
+									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ГруппаФакультетыЗагрузкиРасширеннаяПодсказка" id="84"/>
 									<ChildItems>
 										<Table name="Факультеты" id="85">
@@ -433,12 +455,12 @@
 											</ChildItems>
 										</Table>
 									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаСтудентыЗагрузки" id="116">
+								</Page>
+								<Page name="ГруппаСтудентыЗагрузки" id="116">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Студенты:</v8:content>
+											<v8:content>Студенты</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
@@ -447,8 +469,7 @@
 											<v8:content>Группа студенты загрузки</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Behavior>Collapsible</Behavior>
-									<Collapsed>true</Collapsed>
+									<Group>HorizontalIfPossible</Group>
 									<ExtendedTooltip name="ГруппаСтудентыЗагрузкиРасширеннаяПодсказка" id="117"/>
 									<ChildItems>
 										<Table name="Студенты" id="118">
@@ -546,9 +567,9 @@
 											</ChildItems>
 										</Table>
 									</ChildItems>
-								</UsualGroup>
+								</Page>
 							</ChildItems>
-						</UsualGroup>
+						</Pages>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаДополнительныеНастройки" id="16">
@@ -647,6 +668,7 @@
 			<MainAttribute>true</MainAttribute>
 			<Save>
 				<Field>Объект.КодПолучателя</Field>
+				<Field>Объект.ПапкаСтудентов</Field>
 				<Field>Объект.ПериодОбработки</Field>
 			</Save>
 			<Columns>
