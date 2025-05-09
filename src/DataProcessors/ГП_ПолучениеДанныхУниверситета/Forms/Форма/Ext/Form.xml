@@ -757,6 +757,7 @@
 					<v8:content>Создать объекты БГУ</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>СоздатьОбъектыБГУ</Action>
 		</Command>
 		<Command name="ОбновитьСтатусПодключения" id="3">
 			<Title>
