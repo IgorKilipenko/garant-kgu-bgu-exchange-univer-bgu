@@ -29,7 +29,7 @@
 		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="b268ebc41bd2c0fa0f263399c941cf34ad44ac01"/>
 		<Metadata name="Constant.ГП_РежимОбменаУниверситетБГУ" id="75a271c2-3b45-4ee0-8b25-97113e6addc5" configVersion="04f534df1bb1ad713e4ff8aeada2f9285d4a2315"/>
 		<Metadata name="Constant.ГП_РежимОбменаУниверситетБГУ.ManagerModule" id="75a271c2-3b45-4ee0-8b25-97113e6addc5.1" configVersion="36b3140ea866ee9e25887c74956d9bcaac1c78ae"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="3e5ca5734a0e874fa6fa66b9e68f9df87cdce299">
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="be0de6dc36b32c3a404a8918e3733b238c308713">
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПапкаСтудентов" id="065e3346-770a-4fdd-a7e3-acdacb97fdea"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Факультеты.Attribute.Наименование" id="0c57c6fd-1b35-42d9-bbb0-fc04dab4eed4"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты.Attribute.Код" id="10be6eee-4793-46cf-be9a-4c6f07e2258d"/>
@@ -61,6 +61,7 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.Идентификатор" id="c3d57787-ba13-4fcb-8dcb-c779fb45ed8b"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Студенты" id="c46e2427-5326-42f3-98e7-1626a2dcb730"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Соответствие.Attribute.ИдПриемник" id="c87cf587-586a-4504-969d-0a04db3c80ef"/>
+			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.ИдентификаторТипаПриказа" id="cd3bbaa8-e2f6-4235-ba17-8f8b7608e3f1"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы.Attribute.ИдентификаторФакультета" id="ce05ef26-16bb-4e56-baea-1177582b70fe"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Проверка.Attribute.Ссылка" id="d200e685-8fb2-43b0-8617-06eafedfb2c4"/>
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.TabularSection.Приказы" id="d3f10ee9-3f67-4185-b544-6e48f95c9633"/>
