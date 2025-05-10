@@ -346,6 +346,13 @@
 													<ContextMenu name="ПриказыКанцелярскаяДатаКонтекстноеМеню" id="76"/>
 													<ExtendedTooltip name="ПриказыКанцелярскаяДатаРасширеннаяПодсказка" id="77"/>
 												</InputField>
+												<InputField name="ПриказыНаименованиеФакультета" id="184">
+													<DataPath>Объект.Приказы.НаименованиеФакультета</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПриказыНаименованиеФакультетаКонтекстноеМеню" id="185"/>
+													<ExtendedTooltip name="ПриказыНаименованиеФакультетаРасширеннаяПодсказка" id="186"/>
+												</InputField>
 												<InputField name="ПриказыПредставление" id="78">
 													<DataPath>Объект.Приказы.Представление</DataPath>
 													<ReadOnly>true</ReadOnly>
