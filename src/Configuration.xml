@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev8</Version>
+			<Version>1.0.0.0-dev9</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -69,6 +69,7 @@
 			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
 			<CommonModule>ГП_СервисыИнтеграции</CommonModule>
+			<CommonModule>ГП_ОбменУниверситетБГУОбработкаДанныхУниверситет</CommonModule>
 			<ScheduledJob>ГП_СервисыИнтеграции</ScheduledJob>
 			<Constant>ГП_РежимОбменаУниверситетБГУ</Constant>
 			<CommonForm>ГП_РежимОбменаУниверситетБГУ</CommonForm>
