@@ -194,11 +194,11 @@
 			</Dimension>
 			<Dimension uuid="66e85294-04af-4867-88ca-86289171ece1">
 				<Properties>
-					<Name>ВидОбъектаОбменаДополнителный</Name>
+					<Name>ВидОбъектаОбменаДополнительный</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид объекта обмена дополнителный</v8:content>
+							<v8:content>Вид объекта обмена дополнительный</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
