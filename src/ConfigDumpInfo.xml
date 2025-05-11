@@ -74,8 +74,8 @@
 			<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Attribute.ПапкаКонтрагентов" id="fc17d2d8-942d-43ce-b94c-50d3ff1cef7a"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5" configVersion="2695ac124bc171a34c334dd82d8bd0af422ea483"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="1085db43f1db1258e5cf1e14a4383197f3355000"/>
-		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.ManagerModule" id="109c7986-bae7-4321-858a-a2a735ca0c97.2" configVersion="a35b3ecd240db0fe4e0a449bbb3603710fd63f6a"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Form.Форма.Form" id="88a21c46-6b42-48b7-adae-d10ddea4d5a5.0" configVersion="3bfd449c9f77251452af3e7164cfa559bfb33271"/>
+		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.ManagerModule" id="109c7986-bae7-4321-858a-a2a735ca0c97.2" configVersion="71385d4322ab50da8719f1137976bc4106fec278"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов" id="209b45a2-c6b3-4810-8933-70fb651e31d4" configVersion="abac2a1e73a1ae87d64cf72340c8a9ac8da4c735"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета.Template.СоответствиеОбъектов.Template" id="209b45a2-c6b3-4810-8933-70fb651e31d4.0" configVersion="40953ace8a300d767b0d68cf60864704617ac24b"/>
 		<Metadata name="Document.ПриказОбразование" id="5cc479fe-dfeb-49e5-8a58-a2256c6d33ce" configVersion="b9ac041e4fd3a049c84afca9cfc386cb3ec3270b"/>

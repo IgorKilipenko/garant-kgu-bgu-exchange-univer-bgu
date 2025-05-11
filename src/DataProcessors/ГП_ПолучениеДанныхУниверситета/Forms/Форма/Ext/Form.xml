@@ -604,6 +604,7 @@
 					<ExtendedTooltip name="ГруппаДополнительныеНастройкиРасширеннаяПодсказка" id="17"/>
 					<ChildItems>
 						<Table name="Соответствие" id="18">
+							<ReadOnly>true</ReadOnly>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
