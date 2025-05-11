@@ -584,6 +584,101 @@
 										</Table>
 									</ChildItems>
 								</Page>
+								<Page name="ГруппаДоговорыЗагрузки" id="187">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договоры</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа договоры загрузки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаДоговорыЗагрузкиРасширеннаяПодсказка" id="188"/>
+									<ChildItems>
+										<Table name="Договоры" id="189">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Договоры</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ДоговорыКонтекстноеМеню" id="190"/>
+											<AutoCommandBar name="ДоговорыКоманднаяПанель" id="191"/>
+											<ExtendedTooltip name="ДоговорыРасширеннаяПодсказка" id="192"/>
+											<SearchStringAddition name="ДоговорыСтрокаПоиска" id="193">
+												<AdditionSource>
+													<Item>Договоры</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ДоговорыСтрокаПоискаКонтекстноеМеню" id="194"/>
+												<ExtendedTooltip name="ДоговорыСтрокаПоискаРасширеннаяПодсказка" id="195"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ДоговорыСостояниеПросмотра" id="196">
+												<AdditionSource>
+													<Item>Договоры</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ДоговорыСостояниеПросмотраКонтекстноеМеню" id="197"/>
+												<ExtendedTooltip name="ДоговорыСостояниеПросмотраРасширеннаяПодсказка" id="198"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ДоговорыУправлениеПоиском" id="199">
+												<AdditionSource>
+													<Item>Договоры</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ДоговорыУправлениеПоискомКонтекстноеМеню" id="200"/>
+												<ExtendedTooltip name="ДоговорыУправлениеПоискомРасширеннаяПодсказка" id="201"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="ДоговорыНомерСтроки" id="202">
+													<DataPath>Объект.Договоры.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ДоговорыНомерСтрокиКонтекстноеМеню" id="203"/>
+													<ExtendedTooltip name="ДоговорыНомерСтрокиРасширеннаяПодсказка" id="204"/>
+												</LabelField>
+												<InputField name="ДоговорыДоговор" id="205">
+													<DataPath>Объект.Договоры.Договор</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДоговорыДоговорКонтекстноеМеню" id="206"/>
+													<ExtendedTooltip name="ДоговорыДоговорРасширеннаяПодсказка" id="207"/>
+												</InputField>
+												<InputField name="ДоговорыСтудент" id="208">
+													<DataPath>Объект.Договоры.Студент</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДоговорыСтудентКонтекстноеМеню" id="209"/>
+													<ExtendedTooltip name="ДоговорыСтудентРасширеннаяПодсказка" id="210"/>
+												</InputField>
+												<InputField name="ДоговорыПриказ" id="211">
+													<DataPath>Объект.Договоры.Приказ</DataPath>
+													<Visible>false</Visible>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДоговорыПриказКонтекстноеМеню" id="212"/>
+													<ExtendedTooltip name="ДоговорыПриказРасширеннаяПодсказка" id="213"/>
+												</InputField>
+												<InputField name="ДоговорыИдентификаторПриказа" id="214">
+													<DataPath>Объект.Договоры.ИдентификаторПриказа</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДоговорыИдентификаторПриказаКонтекстноеМеню" id="215"/>
+													<ExtendedTooltip name="ДоговорыИдентификаторПриказаРасширеннаяПодсказка" id="216"/>
+												</InputField>
+												<InputField name="ДоговорыИдентификаторФакультета" id="217">
+													<DataPath>Объект.Договоры.ИдентификаторФакультета</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ДоговорыИдентификаторФакультетаКонтекстноеМеню" id="218"/>
+													<ExtendedTooltip name="ДоговорыИдентификаторФакультетаРасширеннаяПодсказка" id="219"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
 							</ChildItems>
 						</Pages>
 					</ChildItems>
