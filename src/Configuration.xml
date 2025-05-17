@@ -63,6 +63,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ГП_ОбменДаннымиСУниверситет</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>Сопоставить</CommonPicture>
 			<Role>ГП_ИспользованиеПолучениеДанныхУниверситета</Role>
