@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-rc1</Version>
+			<Version>1.0.1.0-rc1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -63,8 +63,15 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ГП_ОбменДаннымиСУниверситет</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>Сопоставить</CommonPicture>
+			<Role>ГП_ИспользованиеПолучениеДанныхУниверситета</Role>
+			<Role>ГП_СервисОбменаБГУУниверситетПолныеПрава</Role>
+			<Role>ГП_ИспользованиеИдентификаторыОбменаУниверситетБГУ</Role>
+			<Role>ГП_ИспользованиеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ</Role>
+			<Role>ГП_ЧтениеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ1</Role>
 			<CommonModule>ГП_ОбменУниверситетБГУ</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУКлиентСервер</CommonModule>
 			<CommonModule>ГП_ОбменУниверситетБГУПовтИсп</CommonModule>
