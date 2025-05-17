@@ -26,7 +26,7 @@
 		<Metadata name="CommonModule.ГП_СервисыИнтеграции.Module" id="27b80622-1812-4197-9bd7-86a05537b490.0" configVersion="6c811bf6fa83aa562e65b6610f2798f33535fc65"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="81501cc8-8798-4cd9-bddf-4952aba081ca" configVersion="35b0c6acba6c0fa5ff98d1f823366165e91f544b"/>
 		<Metadata name="CommonPicture.Сопоставить" id="f8a0c804-b6b6-4b18-8ddb-0421d1664ce5" configVersion="5ea75b4f9baf314407e4b8e084fb3ad6974c0fa3"/>
-		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="996ead9141947685cd2a6a2c4e934c2de4d931a1"/>
+		<Metadata name="Configuration.ГП_ОбменБГУУниверситет" id="d49a6b4f-66c6-4fca-950b-f33a853e2d80" configVersion="8feb01fe3767d969069cccea5d79f36cb540183b"/>
 		<Metadata name="Constant.ГП_РежимОбменаУниверситетБГУ" id="75a271c2-3b45-4ee0-8b25-97113e6addc5" configVersion="04f534df1bb1ad713e4ff8aeada2f9285d4a2315"/>
 		<Metadata name="Constant.ГП_РежимОбменаУниверситетБГУ.ManagerModule" id="75a271c2-3b45-4ee0-8b25-97113e6addc5.1" configVersion="36b3140ea866ee9e25887c74956d9bcaac1c78ae"/>
 		<Metadata name="DataProcessor.ГП_ПолучениеДанныхУниверситета" id="109c7986-bae7-4321-858a-a2a735ca0c97" configVersion="88bdf1ee56983348a19cc42860779c9e5c435ca2">
@@ -90,7 +90,8 @@
 			<Metadata name="Enum.ГП_РежимыРаботыОбменаУниверситетБГУ.EnumValue.Тестовый" id="31d1ad53-18e3-424f-8e58-94eab450f0f6"/>
 			<Metadata name="Enum.ГП_РежимыРаботыОбменаУниверситетБГУ.EnumValue.Продуктивный" id="763215e4-8f0c-426d-a550-e8b56f2bc581"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ" id="53af14d6-f5f1-4f39-ae7f-203629f20300" configVersion="873cdf827482863c199eac8754a4e6f9aa648fe1">
+		<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ" id="53af14d6-f5f1-4f39-ae7f-203629f20300" configVersion="5d76d40eee0790c5434e494a139a3aa51330ce04">
+			<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ.Dimension.ИдентификаторВнешнийДополнительный" id="0f5e8927-ec1b-4efc-a75a-fa23e1607b7c"/>
 			<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ.Dimension.СвязьУстарела" id="14364054-274f-4f7c-a247-a8a120d7374a"/>
 			<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ.Resource.ИдентификаторТранзакцииОбновления" id="396a28ed-b35d-45ac-9246-7b41c554a545"/>
 			<Metadata name="InformationRegister.ГП_ИдентификаторыОбменаУниверситетБГУ.Dimension.ВидОбъектаОбменаДополнительный" id="5277bad5-96ab-45d6-ac03-6f23aed39119"/>
@@ -116,6 +117,16 @@
 		</Metadata>
 		<Metadata name="IntegrationService.ГП_СервисИнтеграцииБГУУниверситет.Module" id="c0b50450-6469-45a1-b221-2d40308db222.0" configVersion="fea19b9d6431849ca40eed561a74060fe30a0ba2"/>
 		<Metadata name="Language.Русский" id="07a5f31b-c9ea-42c1-8181-9e854dca28a4" configVersion="a5bc419eac7e9b49ac8ac7c977191cf9e5c7910a"/>
+		<Metadata name="Role.ГП_ИспользованиеИдентификаторыОбменаУниверситетБГУ" id="e7ba4338-5d34-4226-8dcc-d4b6a88d3104" configVersion="7b7980486f75fbafb0e9d6534d1f2c238ff6c61d"/>
+		<Metadata name="Role.ГП_ИспользованиеИдентификаторыОбменаУниверситетБГУ.Rights" id="e7ba4338-5d34-4226-8dcc-d4b6a88d3104.0" configVersion="fca61627e0174f39652406fc78e830d5ecc3dc0f"/>
+		<Metadata name="Role.ГП_ИспользованиеПолучениеДанныхУниверситета" id="783a40a0-482c-47f6-b4c3-cdbf73657bfe" configVersion="16b56392ca96f78f3547f1d8472a6758bf27925b"/>
+		<Metadata name="Role.ГП_ИспользованиеПолучениеДанныхУниверситета.Rights" id="783a40a0-482c-47f6-b4c3-cdbf73657bfe.0" configVersion="c72a0c10fbf343a8596163a1e1e8a0c5541e2b95"/>
+		<Metadata name="Role.ГП_ИспользованиеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ" id="a1612da4-23c5-471d-b83d-d404701dc6dd" configVersion="95f9c9d8ff3b77f8226e05e85931486ba220db96"/>
+		<Metadata name="Role.ГП_ИспользованиеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ.Rights" id="a1612da4-23c5-471d-b83d-d404701dc6dd.0" configVersion="9d6230b58f431a7601904e593238f7379ae9dd03"/>
+		<Metadata name="Role.ГП_СервисОбменаБГУУниверситетПолныеПрава" id="d391c8e5-7231-41e6-ab5a-de8c0690de20" configVersion="37b22842b88c61c1661c06047fe0e612561c1e99"/>
+		<Metadata name="Role.ГП_СервисОбменаБГУУниверситетПолныеПрава.Rights" id="d391c8e5-7231-41e6-ab5a-de8c0690de20.0" configVersion="2d47a8370fa8200bc3b1aa19ab91de0426f7326e"/>
+		<Metadata name="Role.ГП_ЧтениеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ1" id="23146377-619a-4afc-aa91-3c14113ff76a" configVersion="1124e01cab7099a6772bab047a8984d2abbf6a69"/>
+		<Metadata name="Role.ГП_ЧтениеСоответствиеНаименованийОбъектовОбменаУниверситетБГУ1.Rights" id="23146377-619a-4afc-aa91-3c14113ff76a.0" configVersion="cff50c48fd6b8f7bea1d3f924e11b748f5509bb1"/>
 		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции" id="388f2178-391b-46ff-9205-e4532aaf48f6" configVersion="fbc19a0631286031226bb056bcf8ed65d7e7612f"/>
 		<Metadata name="ScheduledJob.ГП_СервисыИнтеграции.Schedule" id="388f2178-391b-46ff-9205-e4532aaf48f6.0" configVersion="12435f8dc446f6e0ae5206738a69884541b5bcfc"/>
 	</ConfigVersions>
